@@ -1,7 +1,14 @@
 .todo-container {
-  width: 80vw;
+  width: 100vw;
   margin: 0px 10px;
   padding: 0 30px;
+  border-left: 20vw solid transparent;
+  border-right: 20vw solid transparent;
+  @include max(568px) {
+    flex-direction: column;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+  }
   ul {
     line-height: 45px;
     font-weight: bold;
