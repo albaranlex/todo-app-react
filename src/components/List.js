@@ -29,6 +29,7 @@ const List = (props) => {
           onChange={changeHandle}
           className="input"
           placeholder="Type a task here and click add to list"
+          maxLength="45"
         />
         <button className="addButton">+ ADD TO LIST</button>
       </form>

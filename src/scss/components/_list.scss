@@ -36,8 +36,8 @@
   @include flex-center;
   @include max(568px) {
     flex-direction: column;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
   }
   margin: 20px;
   width: 100vw;
