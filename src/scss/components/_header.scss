@@ -1,14 +1,11 @@
 .header {
+  @include flex-center;
   width: 100vw;
   height: 20vh;
   background-color: $primary;
   color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 28px;
 }
