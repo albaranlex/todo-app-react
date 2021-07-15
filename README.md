@@ -43,5 +43,5 @@ Link to full documentation: <https://react-icons.github.io/react-icons/>
 Used for generating Unique IDs.
 
 To install, you can run 
-#### `npm i uuid`\
+#### `npm i uuid`
 Link to full documentation: <https://www.npmjs.com/package/uuid>
