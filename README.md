@@ -7,7 +7,7 @@
 ## Project Summary
 
 - The project utilizes React JS, which includes, but not limited to, components, props and states. The website layout was done with SCSS.
-- The target of the project is mainly to show the use of `states` to add, delete and update data.
+- The target of the project is mainly to show the use of `useState` hook to add, delete and update user specified data (e.g., tasks / to do list).
 - The website is responsive, with breakpoints specified on `mixins`.
 
 ## Available Scripts
