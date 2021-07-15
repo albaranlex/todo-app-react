@@ -1,6 +1,5 @@
 .form-container {
   @include flex-center;
-  min-width: 500px;
   height: auto;
   margin: 20px 10px;
 
@@ -24,4 +23,13 @@
     width: 120px;
     height: 40px;
   }
+}
+
+.form-input {
+  @include flex-center;
+  @include max(568px) {
+    flex-direction: column;
+  }
+  background: red;
+  width: 80vw;
 }

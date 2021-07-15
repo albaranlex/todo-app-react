@@ -4,8 +4,8 @@
   align-items: center;
 }
 
-@mixin min($min-width) {
-  @media screen and(min-width:$min-width) {
+@mixin max($max-width) {
+  @media screen and(max-width:$max-width) {
     @content;
   }
 }
